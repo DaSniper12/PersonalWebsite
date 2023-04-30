@@ -7,20 +7,10 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Install Node.js
-        uses: actions/setup-node@v2
+      - uses: actions/checkout@v2
+      - run: npm ci && npm run build
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          node-version: '14.x'
-      - name: Install dependencies
-        run: npm install
-      - name: Build website
-        run: npm run build
-      - name: Firebase login
-        uses: FirebaseExtended/action-hosting-deploy@v1
-        with:
-          firebase_version: '9.x.x'
-          args: '--only hosting'
-        env:
-          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ADITYA_AGRAWAL_WEBSITE }}'
+          projectId: aditya-agrawal-website
