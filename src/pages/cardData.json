@@ -1,0 +1,168 @@
+
+[
+    {
+      "image": "ATM",
+      "imageHash": "LDAUs{.-HqL44TPX-ov{UbPWXoR3",
+      "badge": {
+        "label": "Intern",
+        "color": "customGreen"
+      },
+      "name": "Atmosphere TV",
+      "role": "SWE Intern",
+      "description": "Developed a custom component library and implemented automated testing using Vue 3, TailwindCSS, and StorybookJs for the internal and customer portals, and company website. Migrated, replaced, and rewrote 10+ libraries utilized in the customer portal from Vue 2 to Vue 3 JavaScript framework. Implemented two consumer interaction analytics tools for the customer portal using an in-house analytics API, HotJar, BigQuery, Looker, and Google Optimize",
+      "url": "",
+      "date": "June 2022",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    },
+    {
+      "image": "BTH",
+      "imageHash": "LQQc6bx@m%$x~TN3XAR-K,,-OHX8",
+      "badge": {
+        "label": "Intern",
+        "color": "customRed"
+      },
+      "name": "Breakthrough Houston",
+      "role": "Teaching Fellow",
+      "description": "Taught Math and Computer Science to underserved middle school students. Promoted from Teaching Assistant to Teaching Fellow, wrote lesson plans for students.",
+      "url": "https://breakthroughhouston.org/",
+      "date": "June - July 2020",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4 
+    },
+    {
+      "image": "LH4",
+      "imageHash": "L9CQ7B?HW[~V00OtD*ohE,008_IV",
+      "badge": {
+        "label": "Hackathon",
+        "color": "customYellow"
+      },
+      "name": "Longhorn Hack",
+      "role": "Hacker Experience",
+      "description": "Hosted the Longhorn Hack for Humanity, a one-day Hackathon with over 200 attendees catered towards beginners. Specifically coordinated the hacker experience by creating a seamless teammate matching experience.",
+      "url" : "https://freetailhackers.com/hack-for-humanity/", 
+      "date": "March 2022",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    },
+    {
+      "image": "RAD",
+      "imageHash": "LGD+xe}nmQaK029uE1X9?abZ%fxt",
+      "badge": {
+        "label": "Intern",
+        "color": "customRed"
+      },
+      "name": "Radix",
+      "role": "SWE Intern",
+      "description": "Developed an invoice matching tool to assist the finance department in matching bills to invoice lists. The tool will create ~$12,000 in annual savings by improving process efficiency. Improved the timesheet tool for the project management team by streamlining the hour allocation process and creating a new web-admin management page. These improvements will result in annual cost savings of ~$43,000.",
+      "url": "https://www.radixeng.com/",
+      "date": "July 2019",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4 
+    },
+    {
+      "image": "FLA",
+      "imageHash": "L59@YSM{_Nozt7t7t7t7?uRjMxxt",
+      "badge": {
+          "label": "Entreprenuership",
+          "color": "customGreen"
+      },
+      "name": "Flood Alert",
+      "role": "Founder",
+      "description": "Developed a website that serves as a platform that crowdsources information regarding flooded streets in communities and for people to communicate with one another and the broader community during an extreme weather situation. Developed a sensor to collect real-time, location-specific water level measurements and integrated it with the website. This sensor is currently in the testing phase. Presented the website and sensor at the 2nd annual Texas Steam Summit 2017 featuring MIT as well as the Houston City Council members.",
+      "url": "https://floodalertmap.com/",
+      "date": "March 2017 - May 2021",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    },
+    {
+      "image": "UHP",
+      "imageHash": "L4RpB^00_N?bR+ay4.9F?v%M9F%M",
+      "badge": {
+        "label": "Hackathon",
+        "color": "customYellow"
+      },
+      "name": "TeenHacksHTX",
+      "role": "Participant",
+      "description": "Created UHP, a single platform for doctors, patients and administrators to use, along with a team of 3 during the TeenHacksHTX hackathon.",
+      "url" : "https://uhp-project.web.app/", 
+      "date": "May 2020",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    },
+    {
+      "image": "UPL",
+      "imageHash": "LRRysgof~qofD%a|-;j[_3fkD$fQ",
+      "badge": {
+        "label": "Intern",
+        "color": "customRed"
+      },
+      "name": "UpLyft Studious",
+      "role": "Intern",
+      "description": "Researched and created presentations for various clients on the topic of encouraging esports development. Populated spreadsheets with data about different clients and various other bits of information",
+      "url": "https://sked.link/uplyftstudios",
+      "date": "June - July 2019",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4 
+    },
+    {
+      "image": "SPD",
+      "imageHash": "L3SF^cxu}[%M.8j[wfay%2ayE1j[",
+      "badge": {
+        "label": "Entreprenuership",
+        "color": "customGreen"
+      },
+      "name": "SpeeDelivery",
+      "role": "Co-Founder",
+      "description": "Developed a web app, during the COVID-19 Pandemic, that allows immunocompromised individuals to request deliveries of grocery supplies to reduce the spread of the virus. Delievered around $400 worth of groceries for 20 households.",
+      "url": "https://speedelivery.org/",
+      "date": "March - May 2020",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    },
+    {
+      "image": "CHI",
+      "imageHash": "L36RMzog00av~qay9Et74:j=_1j^",
+      "badge": {
+        "label": "Intern",
+        "color": "customRed"
+      },
+      "name": "WEARECHAIBOY",
+      "role": "Intern",
+      "description": "Aided in the packaging and shipping of CHAIBOY products to customers. Created various marketing materials for CHAIBOY",
+      "url": "https://wearechaiboy.com/",
+      "date": "June - August 2021",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    },
+    {
+      "image": "ORD",
+      "imageHash": "LNO;rUWHRkMw%MS2a|of~Wnzj=tS",
+      "badge": {
+        "label": "Intern",
+        "color": "customRed"
+      },
+      "name": "ORDRS",
+      "role": "Intern",
+      "description": "Learned about product development and the D2C Market. Wrote a press release and found data to support designs for a client. Analyzed excel data and designed a process flow.",
+      "url": "https://www.ordrs.io/",
+      "date": "June - July 2018",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    },
+    {
+      "image": "IED",
+      "imageHash": "LdIX,IWBRPogr]ozWBj@~Wozt6ay",
+      "badge": {
+        "label": "Intern",
+        "color": "customRed"
+      },
+      "name": "iEdcuate USA",
+      "role": " Intern",
+      "description": "Developed a new system that aids in the cataloguing and ingestion of content captured. Created an operations workflow diagram that detailed all the different operations processes to identify processes that need improvement. Diagramed data flows for specific operations identify bottlenecks",
+      "url": "https://www.ieducateusa.org/",
+      "date": "From  2021 to August 2021",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    }
+]
