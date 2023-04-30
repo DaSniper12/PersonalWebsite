@@ -8,7 +8,6 @@ import { getPerformance } from "firebase/performance";
 import CustomHeader from "./components/Header";
 import CustomFooter from "./components/Footer";
 import Landing from "./pages/Landing";
-import Expensify from "./pages/Expensify";
 
 const firebaseConfig = {
   apiKey: "AIzaSyDUzofkj9Mjyy2iVd4JtW5l_OQiYhCi5Qs",
@@ -48,7 +47,6 @@ export default function App() {
       >
         <Routes>
           <Route path="/" element={<Landing />} />
-          <Route path="/expensify" element={<Expensify />} />
         </Routes>
       </AppShell>
     </MantineProvider>
