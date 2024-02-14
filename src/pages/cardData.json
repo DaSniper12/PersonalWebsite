@@ -1,6 +1,36 @@
 
 [
     {
+      "image": "SPX",
+      "imageHash": "L13R{]t700RjWBayoffQ00Rj~qt7",
+      "badge": {
+        "label": "Intern",
+        "color": "customRed"
+      },
+      "name": "SpaceX",
+      "role": "SWE Intern",
+      "description": "Developing ML Analyzers to automate data reviews for launch and testing operations; directly increasing mission safety.",
+      "url" : "https://spacex.com", 
+      "date": "Jan 2024 - Present",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    },
+    {
+      "image": "SPX",
+      "imageHash": "L13R{]t700RjWBayoffQ00Rj~qt7",
+      "badge": {
+        "label": "Intern",
+        "color": "customRed"
+      },
+      "name": "SpaceX",
+      "role": "SWE Intern",
+      "description": "Trained a computer vision model to enable robot movements to reduce operator reliance during launch recovery operations. Recommended workflow optimizations based on analysis of mission turn operations, saving ~280 hours annually. Designed tooling to remove the forklift requirement from a contingency operation, resulting in savings of ~$70,000 annually. Proposed utilization of winches based on wind load analysis to increase operational capabilities by ~25% during high winds.-",
+      "url" : "https://spacex.com", 
+      "date": "May 2023 - August 2023",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    },
+    {
       "image": "MER",
       "imageHash": "LGI=46r@00OBx^0KWA~W00Rj-;o|",
       "badge": {

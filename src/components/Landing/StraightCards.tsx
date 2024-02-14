@@ -14,6 +14,7 @@ import WEARECHAIBOY from '/WEARECHAIBOY.jpeg';
 import HackTX22 from '/HackTX22.jpeg';
 import HackTheFuture from '/HackTheFuture.jpeg';
 import Merge from '/Merge.jpeg';
+import SpaceX from '/SpaceX.jpeg';
 
 interface imageImportInterface {
   [index: string]: string,
@@ -34,6 +35,7 @@ const images: imageImportInterface = {
   "HTX": HackTX22,
   "HTF": HackTheFuture,
   "MER": Merge,
+  "SPX": SpaceX,
 }
 
 const useStyles = createStyles((theme) => ({
