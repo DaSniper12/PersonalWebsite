@@ -16,6 +16,21 @@
       "colSize": 4
     },
     {
+      "image": "HCK",
+      "imageHash": "L4GQtvw554tj00X51GV@S@ow}Za%",
+      "badge": {
+        "label": "Hackathon",
+        "color": "customYellow"
+      },
+      "name": "HackTX 2023",
+      "role": "Internal VP",
+      "description": "Hosted the HackTX 2023, a 24 hackathon with over 730 attendees and 190+ project submissions, making it one of the largest hackathons in TX. Oversaw the work of various teams from tech, events & experience, to creative. Additionally personally raised over $20k of the budget.",
+      "url" : "https://hacktx.com/", 
+      "date": "October 2023",
+      "badges": [{ "emoji": "", "label": "" }],
+      "colSize": 4
+    },
+    {
       "image": "SPX",
       "imageHash": "L13R{]t700RjWBayoffQ00Rj~qt7",
       "badge": {
@@ -67,10 +82,10 @@
         "label": "Hackathon",
         "color": "customYellow"
       },
-      "name": "HackTX",
+      "name": "HackTX 2022",
       "role": "Hacker Experience",
-      "description": "Hosted the HackTX 2022, a 24 hackathon with over 600 attendees and 120+ project submissions, making it one of the largest hackathons in TX. Coordinated various parts of hacker experience such as team matching, food distribution, and judging.",
-      "url" : "https://hacktx.com/", 
+      "description": "Hosted the HackTX 2022, a 24 hackathon with over 600 attendees and 120+ project submissions, making it one of the largest hackathons in TX (at the time). Coordinated various parts of hacker experience such as team matching, food distribution, and judging.",
+      "url" : "https://hacktx.com/22", 
       "date": "October 2022",
       "badges": [{ "emoji": "", "label": "" }],
       "colSize": 4
