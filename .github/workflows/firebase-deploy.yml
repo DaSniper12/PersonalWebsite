@@ -8,8 +8,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: npm i && npm run build
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16' # or your preferred version
+
+      - name: Build main website
+        run: |
+          npm ci
+          npm run build
+          
+      - name: Build Synesthesia project
+        run: |
+          cd synesthesia
+          npm ci
+          npm run build
+          mkdir -p ../../public/synesthesia
+          cp -R dist/* ../../public/synesthesia/
+          
+      - name: Deploy to Firebase
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ADITYA_AGRAWAL_WEBSITE }}'
