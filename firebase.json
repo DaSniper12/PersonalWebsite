@@ -1,12 +1,16 @@
 {
   "hosting": {
-    "public": "dist",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
     ],
     "rewrites": [
+      {
+        "source": "/synesthesia/**",
+        "destination": "/synesthesia/index.html"
+      },
       {
         "source": "**",
         "destination": "/index.html"
