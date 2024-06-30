@@ -16,16 +16,14 @@ jobs:
 
       - name: Build main website
         run: |
-          npm ci
-          npm run build
+          npm i && npm run build
           
       - name: Build Synesthesia project
         run: |
           cd synesthesia
-          npm ci
-          npm run build
-          mkdir -p ../../public/synesthesia
-          cp -R dist/* ../../public/synesthesia/
+          npm i && npm run build
+          mkdir -p ../public/synesthesia
+          cp -R dist/* ../public/synesthesia/
           
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
