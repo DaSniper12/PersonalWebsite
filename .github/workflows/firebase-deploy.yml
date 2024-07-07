@@ -17,8 +17,8 @@ jobs:
         run: |
           cd synesthesia
           npm i && npm run build
-          mkdir -p ../public/synesthesia
-          cp -R dist/* ../public/synesthesia/
+          mkdir -p ../dist/synesthesia
+          cp -R dist/* ../dist/synesthesia/
           
       - name: Deploy to Firebase
         uses: FirebaseExtended/action-hosting-deploy@v0
