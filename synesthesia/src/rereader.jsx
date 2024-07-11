@@ -3,10 +3,11 @@ import { ReactReader } from 'react-reader';
 import { Slider, Text, Group, Button } from '@mantine/core';
 import StarlitDreams from './assets/Starlit-Dreams.mp3';
 import StarlitDreams1 from './assets/Starlit-Dreams-1.mp3';
+import betterbgmusic from './assets/better-bg-music.wav';
 import TheLastQuestion from './assets/the-last-question.epub?url';
 
 
-const backgroundMusic = [StarlitDreams, StarlitDreams1];
+const backgroundMusic = [betterbgmusic];
 
 const EbookReactReader = ({ epubUrl }) => {
   const [location, setLocation] = useState(0);
@@ -66,7 +67,7 @@ const EbookReactReader = ({ epubUrl }) => {
   const scheduleNextPlay = () => {
     // const nextPlayDelay = Math.round(Math.random() * (7 - 5 + 1) + 5) * 60 * 1000; // 5-7 minutes
     // const nextPlayDelay = Math.round(Math.random() * 3 + 5) * 60 * 1000; // 5-7 minutes
-    const nextPlayDelay = Math.round(Math.random() * 2 + 1) * 60 * 1000; // 1-2 minutes
+    const nextPlayDelay = Math.round(Math.random() * 2 + 2) * 60 * 1000; // 2-4 minutes
     timeoutRef.current = setTimeout(playMusic, nextPlayDelay);
   };
 
