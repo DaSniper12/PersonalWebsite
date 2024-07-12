@@ -15,6 +15,7 @@ const EbookReactReader = ({ epubUrl }) => {
   const audioRef = useRef(null);
   const timeoutRef = useRef(null);
   const [volume, setVolume] = useState(25); // Change initial value to 50 (%)
+  const [playbackRate, setPlaybackRate] = useState(1); // Add this line
 
   const playMusic = async () => {
     if (!audioEnabled || !audioRef.current) return;
@@ -78,6 +79,13 @@ const EbookReactReader = ({ epubUrl }) => {
     }
   };
 
+  const handlePlaybackRateChange = (value) => {
+    setPlaybackRate(value);
+    if (audioRef.current) {
+      audioRef.current.playbackRate = value;
+    }
+  };
+
   const handleEnableAudio = () => {
     if (!audioRef.current) {
       audioRef.current = new Audio();
@@ -108,6 +116,12 @@ const EbookReactReader = ({ epubUrl }) => {
     }
   }, [volume]);
 
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.playbackRate = playbackRate;
+    }
+  }, [playbackRate]);
+
   return (
     <div>
       {!audioEnabled && (
@@ -135,6 +149,16 @@ const EbookReactReader = ({ epubUrl }) => {
             style={{ width: "200px" }}
           />
           <Text>{volume}%</Text>
+          <Slider
+            value={playbackRate}
+            onChange={handlePlaybackRateChange}
+            min={0.5}
+            max={2}
+            step={0.1}
+            label={null}
+            style={{ width: "200px" }}
+          />
+          <Text>{playbackRate.toFixed(1)}x</Text>
         </Group>
       )}
       <div
