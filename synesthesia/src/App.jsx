@@ -2,7 +2,6 @@ import { MantineProvider } from '@mantine/core'
 import './App.css'
 import '@mantine/core/styles.css'
 
-import EbookReader from './reader'
 import EbookReactReader from './rereader'
 
 function App() {
