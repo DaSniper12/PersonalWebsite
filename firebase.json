@@ -8,12 +8,15 @@
     ],
     "rewrites": [
       {
-        "source": "/synesthesia/**",
-        "destination": "/synesthesia/index.html"
-      },
-      {
         "source": "**",
         "destination": "/index.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/synesthesia/**",
+        "destination": "https://synesthesia-6d496.web.app",
+        "type": 301
       }
     ]
   }
